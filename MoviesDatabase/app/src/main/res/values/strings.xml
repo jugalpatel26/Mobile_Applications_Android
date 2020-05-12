@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Movies Database</string>
+    <string name="btn_add_movie">Add Movie</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete Movie</string>
+    <string name="btn_show_year">Show List by Year</string>
+    <string name="btn_show_rating">Show List by Rating</string>
+    <string name="text_description">Description:</string>
+    <string name="text_genere">Genre:</string>
+    <string name="text_rating">Rating:</string>
+    <string name="text_year">Year</string>
+    <string name="text_movie_name">Name</string>
+    <string name="text_imdb">IMDB</string>
+    <string name="percentage">0%</string>
+    <string name="text_zero">0</string>
+    <string name="ne">Description:</string>
+    <string name="Etn" />
+    <string name="Etd" />
+    <string name="Ety" />
+    <string name="Etim" />
+    <string name="save">Save Changes</string>
+    <string name="Ep" />
+    <string name="r_t">Movies by Rating</string>
+    <string name="tv_rt">Title:</string>
+    <string name="r_name" />
+    <string name="r_d" />
+    <string name="r_g" />
+    <string name="r_im" />
+    <string name="finish">Finish</string>
+    <string name="r_r" />
+    <string name="r_m">/5</string>
+    <string name="r_y" />
+    <string name="y_tt">Movies by Year</string>
+</resources>

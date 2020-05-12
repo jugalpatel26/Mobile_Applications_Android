@@ -1,0 +1,33 @@
+<resources>
+
+
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="app_name">Chat Room</string>
+    <string name="deleteBtn">x</string>
+    <string name="addBtn">+</string>
+    <string name="threadHint">Add New Thread</string>
+
+    <string name="username" />
+    <string name="cusername">Email</string>
+    <string name="blogin">Log In</string>
+
+    <string name="bsignup">Sign Up</string>
+
+    <string name="cpassword">Password</string>
+    <string name="cfname">First Name</string>
+    <string name="lastname" />
+    <string name="clastname">Last Name</string>
+
+    <string name="cemail">E Mail</string>
+    <string name="spassword" />
+    <string name="crpassword">Re-enter Password</string>
+    <string name="rpassword" />
+    <string name="bcancel">Cancel</string>
+    <string name="addmessage">Add New Message</string>
+    <string name="sendMessage">send</string>
+
+</resources>

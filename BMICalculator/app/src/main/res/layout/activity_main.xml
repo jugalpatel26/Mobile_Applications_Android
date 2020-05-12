@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Title1"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="@string/Title1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/WeightText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/WeightText"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="1dp">
+
+        <EditText
+            android:id="@+id/WeightInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:inputType="number"
+            android:text="@string/WeightInput" />
+
+        <TextView
+            android:id="@+id/Lb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/WeightInput"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="120dp"
+            android:text="@string/Lb"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/HeightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="61dp"
+            android:text="@string/HeightText"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/HeightFeet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="107dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="@string/HeightFeet" />
+
+        <EditText
+            android:id="@+id/HeightInch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="181dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="@string/HeightInch" />
+
+        <TextView
+            android:id="@+id/Feet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/HeightFeet"
+            android:layout_alignStart="@+id/Lb"
+            android:text="@string/Feet"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Inches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/HeightInch"
+            android:layout_alignStart="@+id/Lb"
+            android:text="@string/Inches"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/CalculateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="154dp"
+            android:text="@string/CalculateButton"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="93dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/FinalResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="38dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">firbasesetup</string>
+    <string name="task" />
+    <string name="priority" />
+    <string name="time" />
+    <string name="add">Add</string>
+    <string name="sa">show all</string>
+    <string name="sc">show completed</string>
+    <string name="sp">show pending</string>
+    <string-array name="spinnerlist">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+
+</resources>

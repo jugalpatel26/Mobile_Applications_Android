@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Inclass4</string>
+    <string name="button_thread">Load Using Thread</string>
+    <string name="button_async">Load Using Async</string>
+</resources>

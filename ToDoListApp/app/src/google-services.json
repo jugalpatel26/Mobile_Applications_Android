@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "855813276784",
+    "firebase_url": "https://test-659af.firebaseio.com",
+    "project_id": "test-659af",
+    "storage_bucket": "test-659af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855813276784:android:99baf28e6ecb0a8e",
+        "android_client_info": {
+          "package_name": "com.example.jugal.firbasesetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855813276784-lhpqq94d382hd2n09vkd741lu2ap3e97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALjvZql3kOuXQi468xyx6Ei1gd05JRr9Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

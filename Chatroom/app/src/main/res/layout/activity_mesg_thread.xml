@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageThreadActivity">
+
+
+    <ListView
+        android:id="@+id/threadListView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="5dp"
+        android:focusable="true"/>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="@string/threadHint"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="46dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@+id/title"
+        android:background="@drawable/round_shape_btn"
+        android:text="@string/addBtn"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="71dp"
+        android:text="Current Threads" />
+
+    <TextView
+        android:id="@+id/userFullName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-11dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/textview_border"
+        android:gravity="center_vertical" />
+
+    <ImageView
+        android:id="@+id/logoutImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/userFullName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@mipmap/ic_logout" />
+
+
+</RelativeLayout>

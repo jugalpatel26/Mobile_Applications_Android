@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">inclass9</string>
+    <string name="name" />
+    <string name="firstname" />
+    <string name="lastname" />
+    <string name="email" />
+    <string name="repassword" />
+    <string name="password" />
+    <string name="fname" />
+    <string name="message" />
+    <string name="xyz" />
+    <string name="jugal" />
+    <string name="time" />
+
+</resources>

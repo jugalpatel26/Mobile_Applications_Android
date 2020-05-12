@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HW04_Http</string>
+    <string name="button_go">Go</string>
+    <string name="Search">Search</string>
+    <string name="Keyword">Search</string>
+    <string name="loading">Loading Dictionary...</string>
+</resources>

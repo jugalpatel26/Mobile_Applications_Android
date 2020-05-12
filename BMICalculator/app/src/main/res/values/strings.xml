@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="Button">Jugal</string>
+    <string name="Title2">Body Mass Index(BMI)</string>
+    <string name="Title1">BMI Calculator</string>
+    <string name="WeightText">Weight</string>
+    <string name="InputWeight" />
+    <string name="WeightInput" />
+    <string name="Lb">Lb</string>
+    <string name="HeightText">Height</string>
+    <string name="HeightFeet" />
+    <string name="HeightInch" />
+    <string name="Inches">Inches</string>
+    <string name="Feet">Feet</string>
+    <string name="CalculateButton">Calculate BMI</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Student Profile Builder</string>
+    <string name="text_name">Name</string>
+    <string name="text_StudentId">Student Id:</string>
+    <string name="text_department">Department:</string>
+    <string name="My_Avatar">My Avatar</string>
+    <string name="hint_firstname">First Name</string>
+    <string name="FirstName" />
+    <string name="hint_lastname">Last Name</string>
+    <string name="LastName" />
+    <string name="hint_studentid">Student ID</string>
+    <string name="StudentID" />
+    <string name="RB_CS">CS</string>
+    <string name="RB_SIS">SIS</string>
+    <string name="RB_BIO">BIO</string>
+    <string name="RB_others">Others</string>
+    <string name="RB_title">Department</string>
+    <string name="button_save">Save</string>
+    <string name="Edit_Name" />
+    <string name="Edit_SID" />
+    <string name="Edit_D" />
+    <string name="edit">Edit</string>
+
+</resources>

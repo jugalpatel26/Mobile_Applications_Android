@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatroomActivity">
+
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        android:layout_below="@+id/chatroomName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp" />
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="11dp"
+        android:ems="10"
+        android:hint="@string/addmessage"
+        android:id="@+id/addMessageEt"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addMsgBtn"
+        android:layout_width="46dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/addMessageEt"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@+id/addMessageEt"
+        android:background="@drawable/round_shape_btn"
+        android:text="@string/sendMessage"
+        android:textColor="@android:color/background_light" />
+    <TextView
+        android:id="@+id/chatroomName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/title"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/textview_border" />
+
+    <ImageView
+        android:id="@+id/homeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/chatroomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@mipmap/ic_home" />
+
+</RelativeLayout>
