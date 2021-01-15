@@ -41,10 +41,6 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 public class MainActivity extends AppCompatActivity implements main{
-    String id;
-    String task;
-    String priority;
-    int tposition;
     ListView listView;
     Button add;
     EditText taskname;
@@ -54,7 +50,6 @@ public class MainActivity extends AppCompatActivity implements main{
     String[] spinnerlist = {"High Priority","Medium Priority","Low Priority"};
     Spinner spinner;
     Note t;
-    int temp;
     public listadapter listadapter;
     DatabaseDataManager dm;
     @Override
@@ -290,7 +285,6 @@ public class MainActivity extends AppCompatActivity implements main{
             return convertView;
 
         }
-
 
 
 
